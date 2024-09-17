@@ -8,3 +8,6 @@ This repository contains the starter code for many different projects. They are 
 * `prepare` - Starter projects for each of the preparation Learning Activities.
 * `prove` - Starter projects for each of the prove Developer projects.
 * `foundation` - Starter projects for foundation projects.
+
+For purposes of the first assigment of the first week of the semester, I am adding this information to prove
+the Git commands and their success functionality at Gihub.
