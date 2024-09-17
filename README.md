@@ -11,3 +11,5 @@ This repository contains the starter code for many different projects. They are 
 
 For purposes of the first assigment of the first week of the semester, I am adding this information to prove
 the Git commands and their success functionality at Gihub.
+
+Adding more information to check out the extension functionality of Github with VS code.
