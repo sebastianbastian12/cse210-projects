@@ -14,7 +14,7 @@ class Program
         Console.WriteLine($"The favorite number of the user is {userNumber}");
 
         int squaredNumber = SquareNumber(userNumber);
-        Console.WriteLine($"The favorite number of the user squared is {squaredNumber}");
+        Console.WriteLine($"The square of the favorite number of the user is {squaredNumber}");
 
         DisplayResult(userName, squaredNumber);
     }
@@ -33,7 +33,7 @@ class Program
 
     static int PromptUserNumber()
     {
-        Console.WriteLine("Enter your number, please.");
+        Console.WriteLine("Enter your favorite number, please.");
         string value = Console.ReadLine();
         int userNumber = int.Parse(value);
         return userNumber;
@@ -47,7 +47,7 @@ class Program
 
     static void DisplayResult(string userName, int userNumber)
     {
-        Console.WriteLine($"The name of the user {userName} and squared favorite user's number {userNumber}");
+        Console.WriteLine($"Brother {userName} the square of your favorite number is {userNumber}");
     }
 
 }
