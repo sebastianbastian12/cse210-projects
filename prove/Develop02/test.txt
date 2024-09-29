@@ -1,0 +1,9 @@
+Date: 09/28/2024; - Prompt: What was the best part of my day?;
+Your record: test1;
+
+Date: 09/28/2024; - Prompt: What did I learn today in 'Come follow me'?;
+Your record: test2;
+
+Date: 09/28/2024; - Prompt: What did I joy most in my last visit at the Temple?;
+Your record: test3;
+
