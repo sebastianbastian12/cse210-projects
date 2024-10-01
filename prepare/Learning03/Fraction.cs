@@ -5,30 +5,47 @@ public class Fraction {
 
     private int _numerator;
     private int _denominator;
+    private string _result;
 
-    public string DefaultFraction()
+
+    public Fraction()
     {
         _numerator = 10;
-        _denominator = 15;
-        string _defaultFraction = $"This is the default fraction: {_numerator}/{_denominator}";
-        return _defaultFraction;
-        
+        _denominator = 15;  
     }
 
-    public string GetFractionString(int numerator)
+    public Fraction(int numerator)
     {
         _numerator = numerator;
-        _denominator = 1;
-        string _result = $"Getting the string fraction: {_numerator}/{_denominator}";
-        return _result;
-
-        
+        _denominator = 15;
     }
 
-    public double GetDecimalValue (double numerator, double denominator)
+    public Fraction(int numerator, int denominator)
     {
-        double _numerator = numerator;
-        double _denominator = denominator;
-        return _numerator / _denominator;
+        _numerator = numerator;
+        _denominator = denominator;
+    }
+
+    public string GetFractionStringNumerator()
+    {
+         _result = $"{_numerator}";
+        return _result;
+    }
+
+    public string GetFractionStringDenominator()
+    {
+        _result = $"{_denominator}";
+        return _result;
+    }
+
+    public string GetFractionString()
+    {
+       _result = $"{_numerator}/{_denominator}";
+        return _result;
+    }
+
+    public double GetDecimalValue ()
+    {
+        return (double)_numerator / (double)_denominator;
     }
 }
